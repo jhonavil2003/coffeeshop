@@ -9,7 +9,6 @@
 }
 
 .table{
-  font-family: Inter, sans-serif;
   font-size: 1.125em;
 }
 
@@ -19,4 +18,11 @@
 
 .line{
   padding: 0 0.75rem;
+}
+
+.total{
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: 1.25em;
+  -webkit-text-fill-color: black;
 }

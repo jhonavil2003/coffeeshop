@@ -32,7 +32,10 @@
         </tbody>
       </table>
     </div>
-
+  </div>
+  <div class="row" *ngIf="numberCoffeeBlend > 0 || numberCoffeeOrigen > 0">
+    <p class="total" *ngIf="numberCoffeeOrigen > 0">Total café de origen: {{numberCoffeeOrigen}}</p>
+    <p class="total" *ngIf="numberCoffeeBlend > 0">Total café blen: {{numberCoffeeBlend}}</p>
   </div>
 
 </section>
