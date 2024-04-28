@@ -6,7 +6,6 @@ import { CafeListComponent } from './cafe-list/cafe-list.component';
 
 @NgModule({
   declarations: [
-
     CafeListComponent
   ],
   exports: [
