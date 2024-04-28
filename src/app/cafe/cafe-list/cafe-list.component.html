@@ -1,1 +1,39 @@
-<p>cafe-list works!</p>
+<section class="container">
+  <div class="row">
+    <h1 class="title">El aroma mágico</h1>
+  </div>
+  <div class="row line">
+    <hr>
+  </div>
+  <div class="row imagen">
+    <img src="/assets/cafe_el_aroma_magico.png" alt="granos de café">
+  </div>
+  <div class="row line">
+    <hr>
+  </div>
+  <div class="row">
+    <div class="col-md-8">
+      <table class="table">
+        <thead class="table-dark">
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Nombre</th>
+          <th scope="col">Tipo</th>
+          <th scope="col">Region</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor="let coffe of coffees">
+          <th scope="row">{{coffe.id}}</th>
+          <td>{{coffe.nombre}}</td>
+          <td>{{coffe.tipo}}</td>
+          <td>{{coffe.region}}</td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+
+</section>
+
