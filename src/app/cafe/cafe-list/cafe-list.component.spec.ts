@@ -48,7 +48,7 @@ describe('CafeListComponent', () => {
     expect(debug.query(By.css("tbody")).childNodes.length).toBeGreaterThan(0);
   });
 
-  it("Table has 3 rows", () => {
+  it("Table has 3 rows and head", () => {
     const tbd = debug.query(By.css("tbody"));
     const contentTbd: HTMLElement = tbd.nativeElement;
     const th = debug.query(By.css("thead"));
